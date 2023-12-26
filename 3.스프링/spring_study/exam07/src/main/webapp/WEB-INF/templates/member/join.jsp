@@ -1,20 +1,22 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" %>
 <form method="post">
     <dl>
         <dt>아이디</dt>
         <dd>
-            <input type="text" name = "userId>"
+            <input type="text" name="userId">
         </dd>
     </dl>
     <dl>
         <dt>비밀번호</dt>
         <dd>
-            <input type="text" name = "userPw"
+            <input type="password" name="userPw">
         </dd>
     </dl>
     <dl>
         <dt>비밀번호 확인</dt>
-        <dd><input type="password" name="confirmPw"></dd>
+        <dd>
+            <input type="password" name="confirmPw">
+        </dd>
     </dl>
     <dl>
         <dt>회원명</dt>
@@ -30,7 +32,7 @@
     </dl>
     <div>
         <input type="checkbox" name="agree" value="true" id="agree">
-         <label for="agree">회원가입 약관에 동의합니다.</label>
+        <label for="agree">회원가입 약관에 동의합니다.</label>
     </div>
     <button type="submit">가입하기</button>
 </form>

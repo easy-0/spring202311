@@ -12,5 +12,5 @@
             <input type="password" name="userPw">
         </dd>
     </dl>
-    <button type="submit">전송</button>
+    <button type="submit">로그인</button>
 </form>
